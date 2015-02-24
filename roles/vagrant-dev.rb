@@ -5,5 +5,6 @@ run_list(
     "recipe[openssl]",
     "recipe[gradle]",
     "recipe[git]",
-    "recipe[maven]"
+    "recipe[maven]",
+    "recipe[docker]"
 )
