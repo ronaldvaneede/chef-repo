@@ -1,0 +1,5 @@
+Install Librarian-Chef: `gem install librarian-chef`  
+Make a Cheffile: `librarian-chef init`  
+Install cookbooks and dependencies: `librarian-chef install [--clean] [--verbose]`  
+  
+More info: https://github.com/applicationsonline/librarian-chef
