@@ -9,7 +9,11 @@ override_attributes(
         } 
     },
     "gradle" => {
-        "version" => "2.3"
+        "version" => "2.3",
+        "url" => "http://services.gradle.org/distributions/gradle-2.3-bin.zip"
+    },
+    "apt" => {
+        "compiletime" => true
     }
 )
 
