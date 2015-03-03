@@ -19,11 +19,13 @@ override_attributes(
 
 run_list(
     "recipe[apt]",
+    "recipe[build-essential]",
     "recipe[openssl]",
     "recipe[gradle]",
     "recipe[git]",
     "recipe[maven]",
     "recipe[docker]",
     "recipe[java]",
-    "recipe[zshell::default]"
+    "recipe[zshell::default]",
+    "recipe[nodejs]"
 )
