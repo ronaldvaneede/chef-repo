@@ -10,7 +10,8 @@ override_attributes(
     },
     "gradle" => {
         "version" => "2.3",
-        "url" => "http://services.gradle.org/distributions/gradle-2.3-bin.zip"
+        "url" => "http://services.gradle.org/distributions/gradle-2.3-bin.zip",
+        "checksum" => "010dd9f31849abc3d5644e282943b1c1c355f8e2635c5789833979ce590a3774"
     },
     "apt" => {
         "compiletime" => true
@@ -30,6 +31,10 @@ run_list(
     "recipe[maven]",
     "recipe[docker]",
     "recipe[java]",
+<<<<<<< HEAD
     "recipe[nodejs]",
     "recipe[custom_environment]"
+=======
+    "recipe[zshell::default]"
+>>>>>>> 063a6b172c66dc0f3b1bd5cad352a3af2374deec
 )
