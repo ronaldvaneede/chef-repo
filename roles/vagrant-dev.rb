@@ -31,10 +31,7 @@ run_list(
     "recipe[maven]",
     "recipe[docker]",
     "recipe[java]",
-<<<<<<< HEAD
     "recipe[nodejs]",
     "recipe[custom_environment]"
-=======
     "recipe[zshell::default]"
->>>>>>> 063a6b172c66dc0f3b1bd5cad352a3af2374deec
 )
