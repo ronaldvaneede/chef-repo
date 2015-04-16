@@ -14,6 +14,10 @@ override_attributes(
     },
     "apt" => {
         "compiletime" => true
+    },
+    "vagrant" => {
+        # "symlink_npm" => (RbConfig::CONFIG['host_os'] =~ /cygwin|mswin|mingw/) ? true : false
+        "symlink_npm" => true
     }
 )
 
@@ -26,6 +30,6 @@ run_list(
     "recipe[maven]",
     "recipe[docker]",
     "recipe[java]",
-    "recipe[zshell::default]",
-    "recipe[nodejs]"
+    "recipe[nodejs]",
+    "recipe[custom_environment]"
 )
