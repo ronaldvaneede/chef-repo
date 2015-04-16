@@ -32,6 +32,6 @@ run_list(
     "recipe[docker]",
     "recipe[java]",
     "recipe[nodejs]",
-    "recipe[custom_environment]"
+    "recipe[custom_environment]",
     "recipe[zshell::default]"
 )
